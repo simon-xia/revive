@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"go/ast"
 
-	"github.com/mgechev/revive/lint"
+	"github.com/simon-xia/revive/lint"
 )
 
 // ModifiesParamRule lints given else constructs.

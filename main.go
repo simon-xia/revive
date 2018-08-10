@@ -6,7 +6,7 @@ import (
 	"os"
 
 	"github.com/fatih/color"
-	"github.com/mgechev/revive/lint"
+	"github.com/simon-xia/revive/lint"
 )
 
 var logo = color.YellowString(` _ __ _____   _(_)__  _____

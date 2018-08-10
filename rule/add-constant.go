@@ -2,7 +2,7 @@ package rule
 
 import (
 	"fmt"
-	"github.com/mgechev/revive/lint"
+	"github.com/simon-xia/revive/lint"
 	"go/ast"
 	"strconv"
 	"strings"

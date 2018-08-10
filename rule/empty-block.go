@@ -3,7 +3,7 @@ package rule
 import (
 	"go/ast"
 
-	"github.com/mgechev/revive/lint"
+	"github.com/simon-xia/revive/lint"
 )
 
 // EmptyBlockRule lints given else constructs.

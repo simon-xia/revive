@@ -5,7 +5,7 @@ import (
 	"go/ast"
 	"go/token"
 
-	"github.com/mgechev/revive/lint"
+	"github.com/simon-xia/revive/lint"
 )
 
 // UnusedParamRule lints unused params in functions.

@@ -3,8 +3,8 @@ package test
 import (
 	"testing"
 
-	"github.com/mgechev/revive/lint"
-	"github.com/mgechev/revive/rule"
+	"github.com/simon-xia/revive/lint"
+	"github.com/simon-xia/revive/rule"
 )
 
 func TestAddConstant(t *testing.T) {

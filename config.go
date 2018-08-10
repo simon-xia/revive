@@ -9,11 +9,11 @@ import (
 
 	"github.com/mgechev/dots"
 
-	"github.com/mgechev/revive/formatter"
+	"github.com/simon-xia/revive/formatter"
 
 	"github.com/BurntSushi/toml"
-	"github.com/mgechev/revive/lint"
-	"github.com/mgechev/revive/rule"
+	"github.com/simon-xia/revive/lint"
+	"github.com/simon-xia/revive/rule"
 )
 
 func fail(err string) {
@@ -60,6 +60,7 @@ var allRules = append([]lint.Rule{
 	&rule.FlagParamRule{},
 	&rule.UnnecessaryStmtRule{},
 	&rule.StructTagRule{},
+	&rule.BanSensitiveWordRule{},
 }, defaultRules...)
 
 var allFormatters = []lint.Formatter{
